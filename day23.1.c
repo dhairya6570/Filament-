@@ -19,12 +19,14 @@ int main (){
 			if(i==name[j]){
 				
 				count++;
-//				printf("%c => %d\n",name[j] , count);
+				
 			}
 			
 		}
-//		printf("%c => %d\n",name[j] , count);
+		if(count>0){
+		printf("%c => %d\n", i , count);
+		}
 	}
-	printf("%c => %d\n",name[j] , count);
+
 	return 0 ;
 }
